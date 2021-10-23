@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Race Registration form</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <div>
+            <h1>Race Registration</h1>
+        </div>
+
+        <div>
+            <label for="firstname">First name</label>
+            <input type="text" id="firstname" placeholder="Write your first name">
+            <label for="lastname">Last name</label>
+            <input type="text" id="lastname" placeholder="Write your last name">
+            <br><br>
+        </div>
+
+        <div>
+            Select a race:
+            <br><br>
+
+            <input type="radio" name="race" id="race1">
+            <label for="race1">Run run 5k</label>
+            <br>
+            <input type="radio" name="race" id="race2">
+            <label for="race2">Half marathon</label>
+            <br>
+            <input type="radio" name="race" id="race3">
+            <label for="race3">Full Marathon</label>
+            <br>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Just email">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div>
+
+        <div>
+            <label for="age_group">Select Age Group</label>
+            <select id="age_group">
+                <option value="">--Please choose age group</option>
+                <option>Under 18</option>
+                <option>Equal or more than 18</option>
+            </select>
+        </div>
+
+        <div>
+            <button>Register</button>
+            <button>Reset</button>
+        </div>
+    </body>
+</html>
